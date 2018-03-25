@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{D291ED31-D286-491B-90C9-D64127BC34E9}|Default">
+  <MonoDevelop.Ide.ItemProperties.Lab.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0CF91AD5-C230-4168-898B-6130259CFB1D">
+    <MonoDevelop.MacDev.AppleDevelopmentTeam />
+  </MonoDevelop.Ide.ItemProperties.Lab.iOS>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab État">
+    <Files>
+      <File FileName="Lab État" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Lab.Droid PreferredExecutionTarget="Android.Nexus_5X_API_27_x86" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+</Properties>

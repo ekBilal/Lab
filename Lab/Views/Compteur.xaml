@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	x:Class="Lab.Views.Compteur"
+	BackgroundColor="{StaticResource Jaune}">
+	<ContentPage.Content>
+		<Grid>
+			<Grid.GestureRecognizers>
+				<TapGestureRecognizer Tapped="Handle_Tapped" />
+			</Grid.GestureRecognizers>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="Auto" />
+			</Grid.RowDefinitions>
+			<BoxView BackgroundColor="{StaticResource Orange}"
+				Rotation="10"
+				HeightRequest="100"
+				Margin="-50,-50"
+				Grid.Row="0" />
+			<BoxView BackgroundColor="{StaticResource Orange}"
+				Rotation="-10"
+				HeightRequest="100"
+				Margin="-50,-50"
+				Grid.Row="0" />
+			<Label x:Name="cptLab"
+				FontSize="170"
+				VerticalTextAlignment="Center"
+				HorizontalTextAlignment="Center"
+				Grid.Row="1" />
+			<BoxView BackgroundColor="{StaticResource Orange}"
+				Rotation="-10"
+				HeightRequest="100"
+				Margin="-20,-50"
+				Grid.Row="2" />
+			<BoxView BackgroundColor="{StaticResource Orange}"
+				Rotation="10"
+				HeightRequest="100"
+				Margin="-20,-50"
+				Grid.Row="2" />
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>
