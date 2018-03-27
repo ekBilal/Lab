@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+	xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+	xmlns:views="clr-namespace:Lab.Views"
+	x:Class="Lab.Views.Rest"
+	BackgroundColor="{StaticResource Jaune}">
+	<ContentPage.Content>
+		<Grid>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="100" />
+				<RowDefinition Height="*" />
+				<RowDefinition Height="Auto" />
+				<RowDefinition Height="100" />
+			</Grid.RowDefinitions>
+			<views:BoxTop Grid.Row="0"/>
+			<Label x:Name="lab"
+				FontSize="170"
+				VerticalTextAlignment="Center"
+				HorizontalTextAlignment="Center"
+				Grid.Row="1" />
+			<Button Clicked="Handle_Clicked"
+				Text="Next"
+				TextColor="White"
+				BackgroundColor="{StaticResource Orange}"
+				Margin="60,0"
+				Grid.Row="2" />
+			<views:BoxBot Grid.Row="3" />
+		</Grid>
+	</ContentPage.Content>
+</ContentPage>

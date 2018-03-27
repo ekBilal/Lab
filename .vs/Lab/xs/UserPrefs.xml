@@ -1,13 +1,17 @@
-﻿<Properties StartupConfiguration="{D291ED31-D286-491B-90C9-D64127BC34E9}|Default">
+﻿<Properties StartupConfiguration="{F089C434-9852-4D88-80BA-3F13942C63FC}|Default">
   <MonoDevelop.Ide.ItemProperties.Lab.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.0CF91AD5-C230-4168-898B-6130259CFB1D">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.Lab.iOS>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Lab État">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Lab/Views/Rest.xaml.cs">
     <Files>
-      <File FileName="Lab État" />
+      <File FileName="Lab/Views/Rest.xaml" Line="30" Column="15" />
+      <File FileName="Lab/Views/Rest.xaml.cs" Line="46" Column="41" />
+      <File FileName="Lab/App.xaml.cs" Line="11" Column="24" />
+      <File FileName="Lab/Views/Compteur.xaml.cs" Line="1" Column="1" />
+      <File FileName="iOS/Main.cs" Line="5" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -1,0 +1,10 @@
+/Projects/Lab/UITests/bin/Debug/Lab.UITests.dll
+/Projects/Lab/UITests/bin/Debug/Lab.UITests.pdb
+/Projects/Lab/UITests/bin/Debug/nunit.framework.dll
+/Projects/Lab/UITests/bin/Debug/Xamarin.UITest.dll
+/Projects/Lab/UITests/bin/Debug/nunit.framework.pdb
+/Projects/Lab/UITests/bin/Debug/nunit.framework.xml
+/Projects/Lab/UITests/bin/Debug/Xamarin.UITest.xml
+/Projects/Lab/UITests/obj/Debug/Lab.UITests.csproj.CoreCompileInputs.cache
+/Projects/Lab/UITests/obj/Debug/Lab.UITests.dll
+/Projects/Lab/UITests/obj/Debug/Lab.UITests.pdb

@@ -1,0 +1,40 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
+
+using Xamarin.Forms;
+
+namespace Lab.Views
+{
+	public partial class StartCpt : ContentPage
+	{
+		int _cpt = 0;
+		int _time = 5000;
+		bool _isStart = false;
+
+		public StartCpt()
+		{
+			InitializeComponent();
+		}
+
+		void Handle_Tapped(object sender, System.EventArgs e)
+		{
+			if (!_isStart) Start();
+			cptLab.Text = (++_cpt).ToString();
+		}
+
+		void Start(){
+			Task.Delay(_time).ContinueWith(t => Device.BeginInvokeOnMainThread(End));
+			_isStart = true;
+		}
+
+		async void End()
+		{
+			await DisplayAlert("Fin", "Ton score est de " + _cpt, "OK");
+			_cpt = 0;
+			_isStart = false;
+			cptLab.Text = "Play";
+
+		}	
+	}
+}
